@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing my work as a GenAI Backend Engineer specializing in multi-agent systems, RAG pipelines, and cloud-native LLM applications.
 
-**Live:** [portfolio-mohit.vercel.app](https://portfolio-mohit.vercel.app)
+**Live:** [mohitkumarsingh.in](https://mohitkumarsingh.in)
 
 ## Tech Stack
 
