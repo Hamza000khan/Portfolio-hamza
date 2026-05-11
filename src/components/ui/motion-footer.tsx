@@ -186,11 +186,11 @@ MagneticButton.displayName = "MagneticButton";
 // ---------------------------------------------------------------------------
 const MarqueeItem = () => (
   <div className="flex items-center space-x-12 px-6">
-    <span>Multi-Agent Systems</span> <span className="text-primary/60">✦</span>
-    <span>RAG Pipelines</span> <span className="text-secondary/60">✦</span>
-    <span>LLM Applications</span> <span className="text-primary/60">✦</span>
-    <span>Cloud Native</span> <span className="text-secondary/60">✦</span>
-    <span>Production AI</span> <span className="text-primary/60">✦</span>
+    <span>Python · FastAPI</span> <span className="text-primary/60">✦</span>
+    <span>Kafka Streaming</span> <span className="text-secondary/60">✦</span>
+    <span>Distributed Systems</span> <span className="text-primary/60">✦</span>
+    <span>AWS · GCP</span> <span className="text-secondary/60">✦</span>
+    <span>Production at Scale</span> <span className="text-primary/60">✦</span>
   </div>
 );
 
@@ -261,7 +261,7 @@ export function CinematicFooter() {
             ref={giantTextRef}
             className="footer-giant-bg-text absolute -bottom-[5vh] left-1/2 -translate-x-1/2 whitespace-nowrap z-0 pointer-events-none select-none"
           >
-            MOHIT
+            HAMZA
           </div>
 
           {/* Marquee strip */}
@@ -286,7 +286,7 @@ export function CinematicFooter() {
               <div className="flex flex-wrap justify-center gap-4 w-full">
                 <MagneticButton
                   as="a"
-                  href="mailto:mohit2003oc@gmail.com"
+                  href="mailto:khanhamza124@gmail.com"
                   className="footer-glass-pill px-10 py-5 rounded-full text-foreground font-bold text-sm md:text-base flex items-center gap-3 group"
                 >
                   <svg className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -297,7 +297,7 @@ export function CinematicFooter() {
 
                 <MagneticButton
                   as="a"
-                  href="https://github.com/Mohit-Singh2003"
+                  href="https://github.com/Hamza000khan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-glass-pill px-10 py-5 rounded-full text-foreground font-bold text-sm md:text-base flex items-center gap-3 group"
@@ -310,7 +310,7 @@ export function CinematicFooter() {
 
                 <MagneticButton
                   as="a"
-                  href="https://linkedin.com/in/mohitucsss"
+                  href="https://www.linkedin.com/in/hamza-khan-05702417a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-glass-pill px-10 py-5 rounded-full text-foreground font-bold text-sm md:text-base flex items-center gap-3 group"
@@ -340,14 +340,14 @@ export function CinematicFooter() {
           {/* Bottom bar */}
           <div className="relative z-20 w-full pb-8 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-muted-foreground text-[10px] md:text-xs font-semibold tracking-widest uppercase order-2 md:order-1">
-              &copy; 2025 Mohit Kumar Singh. All rights reserved.
+              &copy; 2026 Hamza Khan. All rights reserved.
             </div>
 
             <div className="footer-glass-pill px-6 py-3 rounded-full flex items-center gap-2 order-1 md:order-2 cursor-default border-border/50">
               <span className="text-muted-foreground text-[10px] md:text-xs font-bold uppercase tracking-widest">Built with</span>
               <span className="animate-footer-heartbeat text-sm md:text-base text-destructive">&#10084;</span>
               <span className="text-muted-foreground text-[10px] md:text-xs font-bold uppercase tracking-widest">by</span>
-              <span className="text-foreground font-black text-xs md:text-sm tracking-normal ml-1">Mohit</span>
+              <span className="text-foreground font-black text-xs md:text-sm tracking-normal ml-1">Hamza</span>
             </div>
 
             <MagneticButton

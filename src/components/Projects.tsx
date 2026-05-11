@@ -1,75 +1,71 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "motion/react";
-import { ExternalLink, Bot, FileSearch, Video, Terminal, ShieldCheck, Github } from "lucide-react";
+import { ExternalLink, Bot, FileSearch, Activity, Database, Zap, Github } from "lucide-react";
 
 const PROJECTS = [
   {
     icon: Bot,
-    title: "AI-Powered Analytics Multi-Agent System",
-    subtitle: "Google ADK · Gemini · FastAPI · BigQuery · GCP",
+    title: "Kynstro — AI Interview Platform",
+    subtitle: "Python · FastAPI · LLM · Solo backend engineer",
     description:
-      "Designed the full agent hierarchy: supervisor for intent classification → specialised agents for bench/staffing/utilisation/skills analytics → secure BigQuery SQL execution in real time.",
+      "Built kynstro.com end-to-end as the solo backend engineer — an AI-powered interview platform handling candidate sessions, evaluation, and feedback workflows.",
     bullets: [
-      "Built an LLM reasoning layer that interprets SQL results and returns conversational insights, not raw data, making analytics accessible to non-technical leadership.",
-      "Implemented query guardrails (read-only, DDL/DML prevention, safety checks) to ensure zero risk of accidental data mutation in production.",
+      "Designed and shipped the complete backend architecture: APIs, session orchestration, LLM-driven evaluation pipelines, and persistence.",
+      "Owned production deployment, observability, and reliability for live candidate-facing traffic.",
     ],
+    url: "https://kynstro.com",
     gradient: "from-violet-500/20 to-purple-500/20",
     accentColor: "text-violet-400",
   },
   {
-    icon: Terminal,
-    title: "Claude Monitor CLI",
-    subtitle: "Python · Anthropic OAuth API · JSONL · PyPI",
+    icon: FileSearch,
+    title: "AI Document Ingestion Pipeline",
+    subtitle: "Python · Celery · Redis · Multi-Agent LLM",
     description:
-      "Interactive terminal app for real-time monitoring of Claude AI usage with quota tracking, cost analytics, and ML-based predictive insights. Published on PyPI.",
+      "Engineered an AI-powered document ingestion pipeline at Techolution that onboards 10K+ documents/month with a multi-agent LLM workflow.",
     bullets: [
-      "Real-time quota monitoring, burn rate calculations (tokens/min, cost/min), and ML-driven P90 limit predictions.",
-      "Per-model usage distribution (Opus/Sonnet/Haiku), 12-hour sparkline trends, and CSV/JSON export.",
-      "Compact statusline mode for seamless Claude Code integration.",
+      "Reduced manual processing time by ~70% by orchestrating Celery workers and Redis-backed task state across multi-agent LLM stages.",
+      "Built failure-tracking for LLM API workflows that cut undetected task failures by 90% and reduced on-call alerts by ~30%.",
     ],
-    github: "https://github.com/Mohit-Singh2003/claude-monitor-cli",
     gradient: "from-emerald-500/20 to-green-500/20",
     accentColor: "text-emerald-400",
   },
   {
-    icon: FileSearch,
-    title: "LLM-Powered Document Intelligence (RAG)",
-    subtitle: "Python · Vespa · GCP",
+    icon: Zap,
+    title: "Real-Time Audio Streaming Pipelines",
+    subtitle: "Kafka · Python · Distributed Systems",
     description:
-      "Designed end-to-end RAG pipeline: document parsing → chunking → embedding preparation → vector indexing on Vespa for sub-second semantic search at scale.",
+      "Designed and maintained Kafka streaming pipelines for a podcast platform serving 50M+ MAUs across 850+ radio stations.",
     bullets: [
-      "Integrated retrieval layer with FastAPI backend to deliver LLM-grounded answers over enterprise document corpora.",
-      "Validated reliability and observability on GCP for production readiness.",
+      "Processed 100K+ real-time audio events per hour with sub-second end-to-end latency.",
+      "Resolved async context-propagation bugs that had caused ~15% metadata inconsistency, bringing error rate to <1%.",
     ],
     gradient: "from-cyan-500/20 to-blue-500/20",
     accentColor: "text-cyan-400",
   },
   {
-    icon: Video,
-    title: "AI Video Player: Real-Time Subtitles",
-    subtitle: "C# · .NET 9 · Whisper ASR · CUDA · OCR",
+    icon: Database,
+    title: "Enterprise Analytics Pipeline Redesign",
+    subtitle: "Python · Cloud · 200+ client sites",
     description:
-      "Intelligent desktop video player that generates, translates, and enhances subtitles in real time using AI. Supports both local files and online video streaming.",
+      "Redesigned the data pipeline architecture at Xempla to support enterprise analytics workloads across 200+ client sites globally.",
     bullets: [
-      "Real-time ASR with multiple Whisper models, hybrid translation (local + cloud), and bitmap-to-text OCR for hardcoded subtitles.",
-      "Dual-language subtitle display, searchable transcript sidebar, and clickable subtitle navigation.",
-      "NVIDIA CUDA GPU acceleration with dark-themed UI optimized for focus.",
+      "Cut infrastructure load by 35% — an estimated $80K/year reduction in cloud compute costs.",
+      "Delivered analytics systems and API integrations that accelerated a new product-line launch by 3 months and onboarded 15+ enterprise customers in year one.",
     ],
-    github: "https://github.com/Mohit-Singh2003/AI-Powered-Video-Player-with-Real-Time-Subtitle-Generation",
     gradient: "from-indigo-500/20 to-purple-500/20",
     accentColor: "text-indigo-400",
   },
   {
-    icon: ShieldCheck,
-    title: "PPE Violation Detection System",
-    subtitle: "Python · YOLOv5 · OpenCV · PyTorch · Tesseract OCR",
+    icon: Activity,
+    title: "Observability Toolkit for Incident Detection",
+    subtitle: "Python · Metrics · Alerts · Dashboards",
     description:
-      "Computer vision system for detecting Personal Protective Equipment violations in workplace environments with automated notifications to safety personnel.",
+      "Implemented observability tooling at WatchMyDC Analytics — metrics, alerts, and dashboards across critical system paths.",
     bullets: [
-      "YOLOv5-based object detection for real-time PPE non-compliance identification.",
-      "Automated violation alerts to reduce workplace injury risk and minimize manual monitoring costs.",
+      "Improved mean time to detection (MTTD) for incidents from ~45 min to <10 min.",
+      "Paired with Django REST APIs supporting 5K+ DAU at <200 ms p95 response time.",
     ],
-    github: "https://github.com/Mohit-Singh2003/PPE-VIOLATION-DETECTION",
     gradient: "from-rose-500/20 to-pink-500/20",
     accentColor: "text-rose-400",
   },
@@ -149,17 +145,16 @@ export default function Projects() {
                   ))}
                 </ul>
 
-                {/* GitHub link */}
-                {"github" in project && project.github && (
+                {/* External link */}
+                {"url" in project && project.url && (
                   <a
-                    href={project.github}
+                    href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    <Github size={16} />
-                    View on GitHub
-                    <ExternalLink size={12} />
+                    <ExternalLink size={14} />
+                    Visit site
                   </a>
                 )}
               </div>

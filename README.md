@@ -1,8 +1,6 @@
-# Mohit Kumar Singh — Portfolio
+# Hamza Khan — Portfolio
 
-Personal portfolio website showcasing my work as a GenAI Backend Engineer specializing in multi-agent systems, RAG pipelines, and cloud-native LLM applications.
-
-**Live:** [mohitkumarsingh.in](https://mohitkumarsingh.in)
+Personal portfolio website showcasing my work as a Senior Backend Engineer specializing in Python, FastAPI, Kafka, distributed systems, and cloud-native services on AWS &amp; GCP.
 
 ## Tech Stack
 
@@ -10,20 +8,18 @@ Personal portfolio website showcasing my work as a GenAI Backend Engineer specia
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS with custom dark theme
 - **Animations:** Motion (Framer Motion), GSAP + ScrollTrigger
-- **Effects:** tsParticles sparkles, WebGL-ready components
+- **Effects:** tsParticles sparkles
 - **UI Primitives:** Radix UI, Lucide icons
-- **Deployment:** Vercel
 
 ## Sections
 
 - **Hero** — Animated intro with sparkle particle effects
 - **About** — Professional summary with syntax-highlighted JSON expertise block
-- **Experience** — Timeline of roles and responsibilities
-- **Projects** — AI Analytics Multi-Agent System, Claude Monitor CLI, RAG Platform, AI Video Player, PPE Violation Detection
-- **Skills** — Categorized tech stack (AI/GenAI, Backend, Cloud, Languages, Databases, CS Fundamentals)
-- **Certifications** — Google Cloud certs (ACE, CDL, ADP) linked to Credly
-- **Articles** — Medium blog posts on Raspberry Pi projects
-- **Contact** — Email, GitHub, LinkedIn
+- **Experience** — Timeline of roles: Techolution, Xempla, WatchMyDC Analytics, Croudit
+- **Projects** — Kynstro AI Interview Platform, AI Document Ingestion Pipeline, Kafka Audio Streaming, Enterprise Analytics Redesign, Observability Toolkit
+- **Skills** — Categorized stack (Languages, Backend, Messaging &amp; Data, Cloud &amp; DevOps, Architecture, Impact)
+- **Education &amp; Achievements** — Integral University BCA and headline production wins
+- **Contact** — Email, phone, GitHub, LinkedIn
 - **Footer** — Cinematic curtain-reveal footer with GSAP scroll animations
 
 ## Getting Started
@@ -44,7 +40,7 @@ npm run preview
 
 ## Connect
 
-- Email: mohit2003oc@gmail.com
-- GitHub: [Mohit-Singh2003](https://github.com/Mohit-Singh2003)
-- LinkedIn: [mohitucsss](https://linkedin.com/in/mohitucsss)
-- Medium: [@mohitucsss](https://medium.com/@mohitucsss)
+- Email: khanhamza124@gmail.com
+- Phone: +91-8439572325
+- GitHub: [Hamza000khan](https://github.com/Hamza000khan)
+- LinkedIn: [hamza-khan-05702417a](https://www.linkedin.com/in/hamza-khan-05702417a/)

@@ -48,7 +48,7 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tighter leading-[0.9]"
         >
-          <span className="gradient-text">Mohit</span>
+          <span className="gradient-text">Hamza Khan</span>
         </motion.h1>
 
         {/* Tagline */}
@@ -58,9 +58,9 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.6 }}
           className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
         >
-          <span className="text-foreground font-semibold">GenAI Backend Engineer</span>{" "}
-          building production multi-agent systems, RAG pipelines, and
-          cloud-native LLM applications on GCP.
+          <span className="text-foreground font-semibold">Senior Backend Engineer</span>{" "}
+          shipping production Python services at scale — FastAPI microservices,
+          Kafka streaming, and distributed systems on AWS &amp; GCP.
         </motion.p>
 
         {/* CTA row */}
@@ -92,9 +92,9 @@ export default function Hero() {
           className="flex items-center justify-center gap-4 mt-8"
         >
           {[
-            { icon: Github, href: "https://github.com/Mohit-Singh2003", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/mohitucsss", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:mohit2003oc@gmail.com", label: "Email" },
+            { icon: Github, href: "https://github.com/Hamza000khan", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/hamza-khan-05702417a/", label: "LinkedIn" },
+            { icon: Mail, href: "mailto:khanhamza124@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}

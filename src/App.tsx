@@ -6,8 +6,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import Certifications from "@/components/Certifications";
-import Articles from "@/components/Articles";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import LoadingScreen from "@/components/LoadingScreen";
 import { CinematicFooter } from "@/components/ui/motion-footer";
@@ -50,8 +49,7 @@ export default function App() {
         <Experience />
         <Projects />
         <Skills />
-        <Certifications />
-        <Articles />
+        <Education />
         <Contact />
       </main>
 

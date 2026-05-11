@@ -24,8 +24,9 @@ export default function Contact() {
             <span className="gradient-text">something great</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            I'm always open to discussing new opportunities, interesting projects,
-            or just talking about AI and backend engineering.
+            Open to senior backend roles, interesting distributed-systems
+            problems, or just talking shop about Python, Kafka, and scaling
+            production services.
           </p>
         </motion.div>
 
@@ -37,7 +38,7 @@ export default function Contact() {
           className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto"
         >
           <a
-            href="mailto:mohit2003oc@gmail.com"
+            href="mailto:khanhamza124@gmail.com"
             className="group flex items-center gap-4 p-6 rounded-2xl border border-border/50 bg-muted/10 hover:border-primary/30 hover:bg-muted/30 transition-all"
           >
             <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary/20 transition-colors">
@@ -45,12 +46,25 @@ export default function Contact() {
             </div>
             <div className="text-left">
               <p className="text-sm font-bold text-foreground">Email</p>
-              <p className="text-xs text-muted-foreground">mohit2003oc@gmail.com</p>
+              <p className="text-xs text-muted-foreground">khanhamza124@gmail.com</p>
             </div>
           </a>
 
           <a
-            href="https://github.com/Mohit-Singh2003"
+            href="tel:+918439572325"
+            className="group flex items-center gap-4 p-6 rounded-2xl border border-border/50 bg-muted/10 hover:border-primary/30 hover:bg-muted/30 transition-all"
+          >
+            <div className="p-3 rounded-xl bg-primary/10 text-primary group-hover:bg-primary/20 transition-colors">
+              <Phone size={22} />
+            </div>
+            <div className="text-left">
+              <p className="text-sm font-bold text-foreground">Phone</p>
+              <p className="text-xs text-muted-foreground">+91-8439572325</p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/Hamza000khan"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-4 p-6 rounded-2xl border border-border/50 bg-muted/10 hover:border-primary/30 hover:bg-muted/30 transition-all"
@@ -60,12 +74,12 @@ export default function Contact() {
             </div>
             <div className="text-left">
               <p className="text-sm font-bold text-foreground">GitHub</p>
-              <p className="text-xs text-muted-foreground">Mohit-Singh2003</p>
+              <p className="text-xs text-muted-foreground">Hamza000khan</p>
             </div>
           </a>
 
           <a
-            href="https://linkedin.com/in/mohitucsss"
+            href="https://www.linkedin.com/in/hamza-khan-05702417a/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-4 p-6 rounded-2xl border border-border/50 bg-muted/10 hover:border-primary/30 hover:bg-muted/30 transition-all"
@@ -75,19 +89,9 @@ export default function Contact() {
             </div>
             <div className="text-left">
               <p className="text-sm font-bold text-foreground">LinkedIn</p>
-              <p className="text-xs text-muted-foreground">mohitucsss</p>
+              <p className="text-xs text-muted-foreground">hamza-khan-05702417a</p>
             </div>
           </a>
-
-          <div className="flex items-center gap-4 p-6 rounded-2xl border border-border/50 bg-muted/10">
-            <div className="p-3 rounded-xl bg-primary/10 text-primary">
-              <MapPin size={22} />
-            </div>
-            <div className="text-left">
-              <p className="text-sm font-bold text-foreground">Location</p>
-              <p className="text-xs text-muted-foreground">Hyderabad, India</p>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>

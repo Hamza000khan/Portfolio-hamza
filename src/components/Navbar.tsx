@@ -8,8 +8,7 @@ const NAV_LINKS = [
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Certifications", href: "#certifications" },
-  { label: "Articles", href: "#articles" },
+  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -39,8 +38,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="text-xl font-black tracking-tight">
-            <span className="gradient-text">M</span>
-            <span className="text-foreground">ohit</span>
+            <span className="gradient-text">H</span>
+            <span className="text-foreground">amza</span>
             <span className="text-muted-foreground text-sm font-mono hidden sm:inline">.dev</span>
           </a>
 

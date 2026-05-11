@@ -23,8 +23,8 @@ export default function About() {
             About
           </p>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight">
-            Building AI that{" "}
-            <span className="gradient-text">actually works</span>{" "}
+            Building backend systems that{" "}
+            <span className="gradient-text">scale</span>{" "}
             in production.
           </h2>
         </motion.div>
@@ -38,20 +38,22 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <p className="text-muted-foreground leading-relaxed text-lg mb-6">
-              I'm a production-focused GenAI backend engineer with hands-on experience
-              architecting multi-agent LLM systems, RAG pipelines, and secure cloud-native
-              APIs.
+              I'm a backend engineer with 5 years of experience shipping
+              production Python services at scale — FastAPI microservices,
+              Kafka streaming pipelines, and AI-powered systems serving
+              millions of users.
             </p>
             <p className="text-muted-foreground leading-relaxed text-lg mb-6">
-              At <span className="text-foreground font-semibold">Egen</span>, I built an
-              AI analytics platform that replaced Looker Studio dashboards with
-              natural-language querying, shipping supervisor agent routing,
-              domain-specific SQL agents, and a secure BigQuery execution layer on GCP.
+              At <span className="text-foreground font-semibold">Techolution</span>,
+              I architect Python microservices for a high-scale audio streaming
+              platform with 50M+ MAUs, and build AI-powered document ingestion
+              pipelines that cut manual processing time by ~70%.
             </p>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              Driven by one goal:{" "}
+              My focus:{" "}
               <span className="text-foreground font-semibold">
-                AI that actually works in production
+                translating complex distributed-systems problems into measurable
+                reliability and cost wins
               </span>
               .
             </p>
@@ -78,37 +80,37 @@ export default function About() {
 {`
     {`}
 {`
-      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Multi-Agent AI"</span>{`,`}
+      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Backend Services"</span>{`,`}
 {`
-      `}<span className="text-primary">"stack"</span>{`: `}<span className="text-green-400">"Google ADK + Gemini"</span>{`,`}
+      `}<span className="text-primary">"stack"</span>{`: `}<span className="text-green-400">"Python · FastAPI · Django"</span>{`,`}
 {`
-      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"Supervisor-routed hierarchies"</span>
-{`
-    },`}
-{`
-    {`}
-{`
-      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"RAG Pipelines"</span>{`,`}
-{`
-      `}<span className="text-primary">"stack"</span>{`: `}<span className="text-green-400">"Vespa + FastAPI"</span>{`,`}
-{`
-      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"Vector search at scale"</span>
+      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"Microservices &amp; async APIs"</span>
 {`
     },`}
 {`
     {`}
 {`
-      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Cloud Native"</span>{`,`}
+      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Streaming &amp; Data"</span>{`,`}
 {`
-      `}<span className="text-primary">"certs"</span>{`: [`}<span className="text-green-400">"ACE"</span>{`, `}<span className="text-green-400">"CDL"</span>{`, `}<span className="text-green-400">"ADP"</span>{`]`}
+      `}<span className="text-primary">"stack"</span>{`: `}<span className="text-green-400">"Kafka · Redis · Celery"</span>{`,`}
+{`
+      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"100K+ events/hr, sub-second latency"</span>
 {`
     },`}
 {`
     {`}
 {`
-      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Production Focus"</span>{`,`}
+      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Cloud"</span>{`,`}
 {`
-      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"Guardrails, observability, security"</span>
+      `}<span className="text-primary">"stack"</span>{`: [`}<span className="text-green-400">"AWS"</span>{`, `}<span className="text-green-400">"GCP"</span>{`, `}<span className="text-green-400">"Docker"</span>{`]`}
+{`
+    },`}
+{`
+    {`}
+{`
+      `}<span className="text-primary">"category"</span>{`: `}<span className="text-green-400">"Impact"</span>{`,`}
+{`
+      `}<span className="text-primary">"focus"</span>{`: `}<span className="text-green-400">"30% faster DB, 40% queue latency cut, $80K/yr saved"</span>
 {`
     }`}
 {`

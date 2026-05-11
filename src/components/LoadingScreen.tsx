@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { Progress } from "@/components/ui/interfaces-progress";
 
 const LOADING_PHRASES = [
-  "Initializing Mohit's dimension...",
-  "Loading multi-agent systems...",
-  "Compiling neural pathways...",
+  "Initializing Hamza's dimension...",
+  "Spinning up FastAPI services...",
+  "Warming Kafka consumers...",
   "Deploying to the cloud...",
   "Establishing secure connection...",
   "Almost there...",
@@ -76,8 +76,8 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           transition={{ duration: 0.5 }}
           className="text-4xl font-black tracking-tight"
         >
-          <span className="gradient-text">M</span>
-          <span className="text-foreground">ohit</span>
+          <span className="gradient-text">H</span>
+          <span className="text-foreground">amza</span>
           <span className="text-muted-foreground text-sm font-mono">.dev</span>
         </motion.div>
 

@@ -4,18 +4,55 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 
 const EXPERIENCE = [
   {
-    company: "Egen",
-    role: "Associate Software Developer, GenAI Backend",
-    location: "Hyderabad, IN",
-    period: "Mar 2025 – Present",
+    company: "Techolution",
+    role: "Senior Software Engineer",
+    location: "Remote",
+    period: "Jun 2025 – Present",
     bullets: [
-      "Architected a natural-language workforce analytics platform using Google ADK + Gemini, replacing manual Looker Studio dashboard navigation for C-suite stakeholders.",
-      "Built a supervisor agent that classifies user intent and routes queries to four specialised domain agents (bench, staffing, utilisation, skills), each with independent BigQuery SQL generation.",
-      "Engineered a secure SQL execution layer on BigQuery: read-only enforcement, DDL/DML blocking, pre-execution safety validation, and structured error handling.",
-      "Developed FastAPI backend services for real-time agent-to-database communication; implemented a Dialogflow CX + Google Chat bridge with session-persistent conversational state.",
-      "Deployed and maintained cloud-native services on GCP (Cloud Run); participated in CI/CD pipelines, Agile sprints, and live production debugging across multi-agent workflows.",
+      "Architected Python microservices for a high-scale audio streaming and podcast platform handling 50M+ monthly active users across 850+ radio stations.",
+      "Engineered an AI-powered document ingestion pipeline (Python, Celery, Redis, multi-agent LLM) that reduced manual processing time by ~70%, onboarding 10K+ documents/month.",
+      "Resolved asynchronous context-propagation bugs that had caused ~15% metadata inconsistency across real-time podcast pipelines, bringing error rate to <1%.",
+      "Built Redis-backed failure-tracking for LLM API workflows, cutting undetected task failures by 90% and reducing on-call alerts by ~30%.",
+      "Optimised critical SQL queries and backend workflows, contributing to a 30% reduction in average database response time across core services.",
+      "Designed and maintained Kafka streaming pipelines processing 100K+ real-time audio events per hour with sub-second end-to-end latency.",
     ],
-    tags: ["Google ADK", "Gemini", "FastAPI", "BigQuery", "Cloud Run", "Dialogflow CX"],
+    tags: ["Python", "FastAPI", "Kafka", "Redis", "Celery", "Multi-Agent LLM"],
+  },
+  {
+    company: "Xempla — Enterprise Asset Management Platform",
+    role: "Software Engineer III",
+    location: "Remote (Australia)",
+    period: "Nov 2021 – Jun 2025",
+    bullets: [
+      "Built and scaled backend services and large data pipelines for enterprise analytics workloads across 200+ client sites globally.",
+      "Redesigned pipeline architecture to reduce infrastructure load by 35%, directly lowering cloud compute costs by an estimated $80K/year.",
+      "Delivered analytics systems and API integrations that accelerated new product-line launch by 3 months and onboarded 15+ enterprise customers in year one.",
+      "Diagnosed and resolved 30+ complex production incidents, achieving a 99.7% service uptime SLA across all managed pipelines.",
+      "Mentored 3 junior engineers; introduced code-review standards that cut post-deployment bug reports by ~25%.",
+    ],
+    tags: ["Python", "Data Pipelines", "AWS", "PostgreSQL", "Microservices"],
+  },
+  {
+    company: "WatchMyDC Analytics",
+    role: "Software Engineer",
+    location: "Remote (Finland)",
+    period: "Mar 2021 – Nov 2021",
+    bullets: [
+      "Implemented observability tooling (metrics, alerts, dashboards) that improved mean time to detection (MTTD) for system incidents from ~45 min to <10 min.",
+      "Developed scalable Django REST APIs for CRM systems supporting 5K+ daily active users, achieving <200 ms p95 response time.",
+    ],
+    tags: ["Django", "REST APIs", "Observability", "Python"],
+  },
+  {
+    company: "Croudit",
+    role: "Full Stack Developer",
+    location: "Remote",
+    period: "Oct 2020 – Mar 2021",
+    bullets: [
+      "Designed server-side architecture in Python (Django and Flask), delivering 4 backend modules used across 2 product lines.",
+      "Built infrastructure tooling that automated 3 manual deployment steps, saving the team ~5 hours/week.",
+    ],
+    tags: ["Django", "Flask", "Python", "DevOps"],
   },
 ];
 
