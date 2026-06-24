@@ -58,7 +58,7 @@ export default function Navbar() {
 
           {/* Resume CTA */}
           <a
-            href="/RESUME.pdf"
+            href="/RESUME_hk.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex px-5 py-2 text-sm font-semibold rounded-full border border-primary/30 text-primary hover:bg-primary/10 transition-colors"
@@ -98,7 +98,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="/RESUME.pdf"
+                href="/RESUME_hk.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 px-6 py-3 text-sm font-semibold rounded-full border border-primary/30 text-primary"
