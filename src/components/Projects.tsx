@@ -8,10 +8,10 @@ const PROJECTS = [
     title: "Kynstro — AI Interview Platform",
     subtitle: "Python · FastAPI · LLM · Solo backend engineer",
     description:
-      "Built kynstro.com end-to-end as the solo backend engineer — an AI-powered interview platform handling candidate sessions, evaluation, and feedback workflows.",
+      "Designed and shipped an end-to-end AI interview platform as the sole backend engineer, from system design to deployment.",
     bullets: [
-      "Designed and shipped the complete backend architecture: APIs, session orchestration, LLM-driven evaluation pipelines, and persistence.",
-      "Owned production deployment, observability, and reliability for live candidate-facing traffic.",
+      "Built async LLM-powered interview pipelines, real-time scoring logic, and a multi-tenant API layer on FastAPI.",
+      "Owned the full stack: schema design, queueing, LLM orchestration, observability, and AWS deployment.",
     ],
     url: "https://kynstro.com",
     gradient: "from-violet-500/20 to-purple-500/20",

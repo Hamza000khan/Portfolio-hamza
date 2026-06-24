@@ -36,11 +36,23 @@ const SKILL_CATEGORIES = [
     color: "from-emerald-500 to-green-600",
     skills: [
       "AWS (EC2, S3, SQS, Lambda)",
-      "GCP (Kubernetes, Cloud Build, App Engine, Cloud Run)",
+      "GCP",
       "Docker",
+      "Kubernetes",
       "GitHub Actions",
       "Jenkins",
       "CI/CD",
+      "Trunk-Based Development",
+    ],
+  },
+  {
+    title: "Testing & Quality",
+    color: "from-rose-500 to-pink-600",
+    skills: [
+      "Unit Testing",
+      "Integration Testing",
+      "Code Review",
+      "Automated CI Pipelines",
     ],
   },
   {
@@ -49,19 +61,19 @@ const SKILL_CATEGORIES = [
     skills: [
       "Distributed Systems",
       "Event-Driven Design",
+      "RESTful Services",
       "System Design",
       "Scalable Services",
     ],
   },
   {
-    title: "Impact Highlights",
-    color: "from-rose-500 to-pink-600",
+    title: "AI / LLM",
+    color: "from-violet-500 to-purple-600",
     skills: [
-      "30% faster DB response",
-      "40% peak-traffic latency cut",
-      "70% manual-process reduction",
-      "$80K/yr infra savings",
-      "99.7% SLA uptime",
+      "OpenAI APIs",
+      "AI Agents",
+      "LLM Integrations",
+      "Multi-Agent Pipelines",
     ],
   },
 ];

@@ -6,7 +6,7 @@ const EXPERIENCE = [
   {
     company: "Techolution",
     role: "Senior Software Engineer",
-    location: "Remote",
+    location: "Hyderabad, India",
     period: "Jun 2025 – Present",
     bullets: [
       "Architected Python microservices for a high-scale audio streaming and podcast platform handling 50M+ monthly active users across 850+ radio stations.",
@@ -20,7 +20,7 @@ const EXPERIENCE = [
   },
   {
     company: "Xempla — Enterprise Asset Management Platform",
-    role: "Software Engineer III",
+    role: "Software Engineer",
     location: "Remote (Australia)",
     period: "Nov 2021 – Jun 2025",
     bullets: [
@@ -34,25 +34,16 @@ const EXPERIENCE = [
   },
   {
     company: "WatchMyDC Analytics",
-    role: "Software Engineer",
+    role: "Backend Developer Intern",
     location: "Remote (Finland)",
     period: "Mar 2021 – Nov 2021",
     bullets: [
-      "Implemented observability tooling (metrics, alerts, dashboards) that improved mean time to detection (MTTD) for system incidents from ~45 min to <10 min.",
-      "Developed scalable Django REST APIs for CRM systems supporting 5K+ daily active users, achieving <200 ms p95 response time.",
+      "Implemented application monitoring across the software lifecycle to ensure overall system performance and reliability.",
+      "Wrote scalable REST APIs in Python (Django) for a CRM platform serving 5K+ daily active users, and built internal features contributing to product success.",
+      "Owned the full deployment cycle for the company's production website.",
+      "Integrated a payment gateway into the CRM software, enabling end-to-end transaction handling.",
     ],
-    tags: ["Django", "REST APIs", "Observability", "Python"],
-  },
-  {
-    company: "Croudit",
-    role: "Full Stack Developer",
-    location: "Remote",
-    period: "Oct 2020 – Mar 2021",
-    bullets: [
-      "Designed server-side architecture in Python (Django and Flask), delivering 4 backend modules used across 2 product lines.",
-      "Built infrastructure tooling that automated 3 manual deployment steps, saving the team ~5 hours/week.",
-    ],
-    tags: ["Django", "Flask", "Python", "DevOps"],
+    tags: ["Django", "REST APIs", "Python", "Payment Integration"],
   },
 ];
 

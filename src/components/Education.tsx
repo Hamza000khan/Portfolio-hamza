@@ -6,7 +6,7 @@ const EDUCATION = [
   {
     degree: "Bachelor in Computer Application",
     school: "Integral University, Lucknow",
-    period: "2019",
+    period: "2020 – 2023",
     detail: "CGPA: 8.9 / 10",
   },
 ];
